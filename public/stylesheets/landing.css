@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Cinzel Decorative', cursive; */
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-image: url('https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity: 0.5;  */
+}
+
+hr { 
+    height: 20px; 
+    border-style: solid; 
+    border-color: white;
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+  } 
+  hr:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+
+
+.content {
+    padding-top: 15%;
+    color: white;
+    font-size: 1.5rem;
+}

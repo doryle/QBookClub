@@ -1,0 +1,25 @@
+<%- include("../partials/header") %>
+
+<h1 class="header text-center">Current Books:</h1>
+
+
+<div class="container-fluid">
+    <div class="mx-auto row text-center" style="display:flex; flex-wrap: wrap;">
+        <% books.forEach(function(books){ %>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                   <img class="book-thumbnail" src="<%= books.image %>">
+                   <div class="caption">
+                       <h4><%= books.title %> by <%= books.author%></h4>
+                   </div>
+                   <p>
+                       <a href="/index/<%= books._id %>" class="btn btn-outline-secondary">More Info</a>
+                   </p>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>
+<div class="mx-auto text-center pb-5">
+    <a href="/index/new"><button class="btn btn-lg btn-outline-light">Add a new book to the club!</button></a>
+</div>

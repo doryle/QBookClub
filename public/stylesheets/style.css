@@ -1,0 +1,57 @@
+body {
+    font-family: 'Antic Slab', serif;
+    background-color: #3F3F37;
+    color: #D0C8BC;
+}
+
+hr { 
+    height: 20px; 
+    border-style: solid; 
+    border-color: white;
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+  } 
+  hr:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+
+h1 {
+    font-family: 'Playfair Display SC', serif;    
+    text-align: center;
+    color: #B0AE9F;
+}
+
+
+.book-thumbnail {
+    height: 20rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.emphasize {
+    font-family: 'Playfair Display SC', serif;    
+    font-style: italic;
+    color: #B0AE9F;
+}
+
+.navbar-custom {
+    background-color: #605C4E;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
+
+a, nav a {
+    color: #CCCCCC;
+}
+
+nav a:hover {
+    color: #DB995A;
+}
+
